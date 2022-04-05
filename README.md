@@ -8,26 +8,26 @@
 - Le Port par défaut de HTTP : 80 exemple 63.172.111.128:80
 - Le Port par défaut de HTTPS : 443 exemple 216.58.198.196:443
 ## request Headers detail :
-> authority: www.google.fr
->  > User-agent : Firefox Chrome
-> Méthode : GET POST DELETE PUT PATCH ..
-> Path : /user
-> Scheme : Https
-> Cookie : 
-> cache-control: max-age=0
-> accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,ar;q=0.6,de;q=0.5 Language attendu par le navigateur.
-> Accept : Text/html image/png …. La ressource que le user s’attends de recevoir (fichier html image fichier pdf zip ..)
-> accept-encoding: gzip, deflate, br
-> ……..
+- authority: www.google.fr
+- User-agent : Firefox Chrome
+- Méthode : GET POST DELETE PUT PATCH ..
+- Path : /user
+- Scheme : Https
+- Cookie : 
+- cache-control: max-age=0
+- accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,ar;q=0.6,de;q=0.5 Language attendu par le navigateur.
+- Accept : Text/html image/png …. La ressource que le user s’attends de recevoir (fichier html image fichier pdf zip ..)
+- accept-encoding: gzip, deflate, br
+- ……..
 ## Response Headers detail :
-> Server : gws (Google web server) cloudflare, was
-> Date
-> expires
-> content-encoding: br
-> content-length: 41780
-> content-type: text/html; charset=UTF-8
-> set-cookie
-> …………..
+- Server : gws (Google web server) cloudflare, was
+- Date
+- expires
+- content-encoding: br
+- content-length: 41780
+- content-type: text/html; charset=UTF-8
+- set-cookie
+- …………..
 ## Http versions :
 > HTTP/0.9 : 1991 ; Protocole simple , il envoie juste du html , il supporte juste la méthode GET et il ne retourne pas les code statuts (200 ….).
 > HTTP/1.0 : 1996, il retourne les codes status, Http headers, il envoie du document non html (exemple page html avec image pour afficher l’image on fait un autre appel)
